@@ -15,7 +15,7 @@ func main() {
 	r := gin.Default()
 	r.GET("/testing", func(context *gin.Context) {
 		res := HelloWorldResp{
-			Result: "sukses bos",
+			Result: "sukses bos setelah deploy cloud run",
 		}
 		context.JSON(http.StatusOK, res)
 	})

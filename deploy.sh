@@ -1,0 +1,2 @@
+export IMAGE_FULLNAME_TAG=asia-southeast2-docker.pkg.dev/polished-cocoa-383113/helloworld-willy/serverless-exploration:v0.0.1-rc1
+gcloud run deploy serverless-exploration --image ${IMAGE_FULLNAME_TAG} --region=asia-southeast2
